@@ -1,0 +1,10 @@
+.DS_Store
+# fichiers générés
+*/data/
+iptv-org/public/guide.xml*
+iptv-org/public/test*
+# WebGrab+Plus : tout ce que l'image dépose dans config/ (siteini.pack, licence, docs, logs…)
+# sauf notre configuration
+webgrabplus/config/*
+!webgrabplus/config/WebGrab++.config.xml
+!webgrabplus/config/crontabs/

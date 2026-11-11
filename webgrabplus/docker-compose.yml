@@ -1,0 +1,27 @@
+services:
+  # Grabber EPG : génère data/guide.xml (+ guide.xml.gz) selon la planification de config/crontabs/abc
+  webgrabplus:
+    image: lscr.io/linuxserver/webgrabplus:latest
+    container_name: webgrabplus
+    hostname: webgrabplus          # utilisé par le contrôle de licence WG++ : ne pas changer ensuite
+    mac_address: "02:42:ac:11:00:02"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Paris
+    volumes:
+      - ./config:/config                       # WebGrab++.config.xml, siteini.pack, License, logs
+      - ./data:/data                           # sortie guide.xml
+      - ./config/crontabs:/etc/crontabs        # planification personnalisée (fichier abc)
+      - ./scripts/ping-http.sh:/bin/ping:ro    # contournement : pas d'ICMP sous Docker Desktop Mac
+    restart: unless-stopped
+
+  # Mini serveur HTTP (lecture seule) pour Kodi : http://<ip-du-mac>:8080/guide.xml.gz
+  epg-http:
+    image: nginx:1.27-alpine
+    container_name: epg-http
+    ports:
+      - "8080:80"
+    volumes:
+      - ./data:/usr/share/nginx/html:ro
+    restart: unless-stopped

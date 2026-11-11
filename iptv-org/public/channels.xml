@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Chaînes ABSENTES de xmltvfr.fr, récupérées par iptv-org/epg puis fusionnées dans xmltvfr/data/guide.xml.
+     Catalogue des sources : https://github.com/iptv-org/epg/tree/master/sites
+     xmltv_id = tvg-id de la playlist M3U. Correspondance complète : CHANNELS.md -->
+<channels>
+
+  <!-- tv.blue.ch -->
+  <channel site="tv.blue.ch" site_id="207" lang="de" xmltv_id="HSE.de">HSE24 HD</channel> <!-- [3] HSE24 HD -->
+  <channel site="tv.blue.ch" site_id="17" lang="de" xmltv_id="DeluxeMusic.de">DELUXE Music</channel> <!-- [4] DELUXE Music -->
+  <channel site="tv.blue.ch" site_id="44" lang="de" xmltv_id="BibelTV.de">Bibel TV</channel> <!-- [7] Bibel TV -->
+  <channel site="tv.blue.ch" site_id="26" lang="de" xmltv_id="ARDalpha.de">ARD-Alpha</channel> <!-- [8] ARD-Alpha -->
+  <channel site="tv.blue.ch" site_id="136" lang="de" xmltv_id="DMAX.de">DMAX</channel> <!-- [14] DMAX -->
+  <channel site="tv.blue.ch" site_id="417" lang="de" xmltv_id="tagesschau24.de">Tagesschau24 HD</channel> <!-- [15] Tagesschau24 HD -->
+  <channel site="tv.blue.ch" site_id="147" lang="de" xmltv_id="One.de">One</channel> <!-- [16] One -->
+  <channel site="tv.blue.ch" site_id="167" lang="de" xmltv_id="Eurosport1Germany.de">EuroSport Germany</channel> <!-- [19] EuroSport Germany -->
+  <channel site="tv.blue.ch" site_id="205" lang="de" xmltv_id="hrfernsehen.de">HR</channel> <!-- [29] HR -->
+  <channel site="tv.blue.ch" site_id="920" lang="de" xmltv_id="kabeleinsDoku.de">Kabel Eins Doku</channel> <!-- [30] Kabel Eins Doku -->
+  <channel site="tv.blue.ch" site_id="571" lang="de" xmltv_id="TELE5.de">Tele5</channel> <!-- [34] Tele5 -->
+  <channel site="tv.blue.ch" site_id="256" lang="de" xmltv_id="MDRFernsehen.de">MDR</channel> <!-- [36] MDR — édition Sachsen -->
+  <channel site="tv.blue.ch" site_id="277" lang="de" xmltv_id="WELT.de">WELT</channel> <!-- [39] WELT -->
+  <channel site="tv.blue.ch" site_id="286" lang="de" xmltv_id="NDRFernsehen.de">NDR MV</channel> <!-- [40] NDR MV — grille NDR Hamburg (décrochages régionaux différents) -->
+  <channel site="tv.blue.ch" site_id="307" lang="de" xmltv_id="phoenix.de">Phoenix</channel> <!-- [43] Phoenix -->
+  <channel site="tv.blue.ch" site_id="327" lang="it" xmltv_id="Rai1.it">Rai Uno</channel> <!-- [46] Rai Uno -->
+  <channel site="tv.blue.ch" site_id="328" lang="it" xmltv_id="Rai2.it">Rai Due</channel> <!-- [47] Rai Due -->
+  <channel site="tv.blue.ch" site_id="329" lang="it" xmltv_id="Rai3.it">Rai Tre</channel> <!-- [48] Rai Tre -->
+  <channel site="tv.blue.ch" site_id="342" lang="de" xmltv_id="rbbFernsehen.de">RBB</channel> <!-- [50] RBB -->
+  <channel site="tv.blue.ch" site_id="398" lang="de" xmltv_id="Sport1.de">Sport1</channel> <!-- [57] Sport1 -->
+  <channel site="tv.blue.ch" site_id="659" lang="de" xmltv_id="ZDFneo.de">ZDFneo</channel> <!-- [74] ZDFneo -->
+  <channel site="tv.blue.ch" site_id="658" lang="de" xmltv_id="ZDFinfo.de">ZDFinfokanal</channel> <!-- [73] ZDFinfokanal -->
+  <channel site="tv.blue.ch" site_id="106" lang="en" xmltv_id="CNBCEurope.uk">CNBC Europe</channel> <!-- [10] CNBC Europe -->
+  <channel site="tv.blue.ch" site_id="107" lang="en" xmltv_id="CNNInternational.us">CNN International Europe</channel> <!-- [11] CNN International Europe -->
+  <channel site="tv.blue.ch" site_id="918" lang="de" xmltv_id="TOGGOplus.de">TOGGO Plus</channel> <!-- [35] TOGGO Plus -->
+  <channel site="tv.blue.ch" site_id="335" lang="it" xmltv_id="RaiNews24.it">Rai News</channel> <!-- [138] Rai News -->
+  <channel site="tv.blue.ch" site_id="363" lang="de" xmltv_id="Nitro.de">RTLNitro</channel> <!-- [142] RTLNitro -->
+  <channel site="tv.blue.ch" site_id="297" lang="de" xmltv_id="ntv.de">N-tv HD</channel> <!-- [167] N-tv HD -->
+  <channel site="tv.blue.ch" site_id="385" lang="de" xmltv_id="sixx.de">SIXX HD</channel> <!-- [169] SIXX HD -->
+  <channel site="tv.blue.ch" site_id="360" lang="de" xmltv_id="RTL.de">RTL HD</channel> <!-- [171] RTL HD -->
+  <channel site="tv.blue.ch" site_id="128" lang="de" xmltv_id="DisneyChannel.de">Disney Channel Germany</channel> <!-- [198] Disney Channel Germany -->
+  <channel site="tv.blue.ch" site_id="323" lang="de" xmltv_id="ProSiebenMaxx.de">Pro7 Maxx HD</channel> <!-- [193] Pro7 Maxx HD -->
+  <channel site="tv.blue.ch" site_id="377" lang="de" xmltv_id="SAT1Gold.de">Sat.1 Gold</channel> <!-- [197] Sat.1 Gold -->
+  <channel site="tv.blue.ch" site_id="337" lang="it" xmltv_id="RaiScuola.it">Rai Scuola</channel> <!-- [195] Rai Scuola -->
+  <channel site="tv.blue.ch" site_id="340" lang="it" xmltv_id="RaiStoria.it">Rai Storia</channel> <!-- [196] Rai Storia -->
+  <channel site="tv.blue.ch" site_id="163" lang="de" xmltv_id="EuronewsGerman.fr">EuroNewsDE</channel> <!-- [52] EuroNewsDE -->
+  <channel site="tv.blue.ch" site_id="164" lang="en" xmltv_id="EuronewsEnglish.fr">EuroNewsEN</channel> <!-- [53] EuroNewsEN -->
+  <channel site="tv.blue.ch" site_id="1030" lang="de" xmltv_id="N24Doku.de">N24 Doku</channel> <!-- [33] N24 Doku — devenue « WELT Doku » -->
+  <channel site="tv.blue.ch" site_id="1612" lang="de" xmltv_id="Voxup.de">Vox UP</channel> <!-- [37] Vox UP -->
+
+  <!-- teleboy.ch -->
+  <channel site="teleboy.ch" site_id="336" lang="de" xmltv_id="BRFernsehenSud.de">Bayerisches FS Sud</channel> <!-- [6] Bayerisches FS Sud -->
+  <channel site="teleboy.ch" site_id="476" lang="de" xmltv_id="RadioBremenFernsehen.de">RadioBremenTV</channel> <!-- [49] RadioBremenTV -->
+  <channel site="teleboy.ch" site_id="338" lang="de" xmltv_id="WDRFernsehen.de">WDR</channel> <!-- [70] WDR — édition Köln -->
+
+  <!-- epgshare01.online -->
+  <channel site="epgshare01.online" site_id="CH1#France.24.English.ch" lang="de" xmltv_id="France24English.fr">France24 English</channel> <!-- [22] France24 English — titre + résumé, pas d'image -->
+  <channel site="epgshare01.online" site_id="CH1#TVE.Internacional.ch" lang="de" xmltv_id="TVEInternacional.es">TVE International</channel> <!-- [20] TVE International — titre + résumé, pas d'image -->
+  <channel site="epgshare01.online" site_id="CH1#RTP.Internacional.ch" lang="de" xmltv_id="RTPInternacional.pt">RTP Internacional</channel> <!-- [104] RTP Internacional — titre + résumé, pas d'image -->
+  <channel site="epgshare01.online" site_id="CH1#Canal.24.Horas.ch" lang="de" xmltv_id="Canal24Horas.es">Canal 24 Horas</channel> <!-- [141] Canal 24 Horas — titre + résumé, pas d'image -->
+
+  <!-- tvgids.nl -->
+  <channel site="tvgids.nl" site_id="rtl4" lang="nl" xmltv_id="RTL4.nl">RTL 4</channel> <!-- [80] RTL 4 — résumés courts -->
+  <channel site="tvgids.nl" site_id="rtl5" lang="nl" xmltv_id="RTL5.nl">RTL 5</channel> <!-- [81] RTL 5 — résumés courts -->
+  <channel site="tvgids.nl" site_id="rtl7" lang="nl" xmltv_id="RTL7.nl">RTL 7</channel> <!-- [82] RTL 7 — résumés courts -->
+
+  <!-- tv.sfr.fr -->
+  <channel site="tv.sfr.fr" site_id="807" lang="fr" xmltv_id="SICInternacional.pt">SIC</channel> <!-- [204] SIC — SIC Internacional -->
+  <channel site="tv.sfr.fr" site_id="1555" lang="fr" xmltv_id="SICNoticias.pt">SIC Noticias</channel> <!-- [205] SIC Noticias -->
+  <channel site="tv.sfr.fr" site_id="1637" lang="fr" xmltv_id="TVIInternacional.pt">TVI International</channel> <!-- [206] TVI International -->
+  <channel site="tv.sfr.fr" site_id="4100" lang="fr" xmltv_id="TVIFiccao.pt">TVI Ficcao</channel> <!-- [207] TVI Ficcao — renommée « V+ TVI » -->
+
+  <!-- web.magentatv.de -->
+  <channel site="web.magentatv.de" site_id="475" lang="de" xmltv_id="EuronewsRussian.fr">EuroNewsRU</channel> <!-- [54] EuroNewsRU -->
+
+  <!-- tv.post.lu -->
+  <channel site="tv.post.lu" site_id="8e603430-8096-11e9-b5ca-f345a2ed0fbe" lang="lb" xmltv_id="ChamberTV.lu">Chamber TV HD</channel> <!-- [217] Chamber TV HD — très peu de programmes -->
+
+  <!-- telenet.tv -->
+  <channel site="telenet.tv" site_id="primesporthd" lang="nl" xmltv_id="PlaySports1.be">PlaySports 1</channel> <!-- [219] PlaySports 1 -->
+  <channel site="telenet.tv" site_id="sportinghd2" lang="nl" xmltv_id="PlaySports2.be">PlaySports 2 (dazn)</channel> <!-- [220] PlaySports 2 (dazn) -->
+
+  <!-- Non configurables (voir CHANNELS.md) :
+       [27] France O — chaîne arrêtée en 2020
+       [51] Record Internacional — aucune source trouvée
+       [86] RTL Letz HD — aucune source trouvée
+       [102] 1TVRUS Europe — source testée (tv.blue.ch) : 0 programme
+  -->
+</channels>

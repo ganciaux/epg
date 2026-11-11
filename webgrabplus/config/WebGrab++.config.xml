@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<settings>
+  <!-- Doc : http://webgrabplus.com/documentation/configuration/webgrabconfigxml -->
+
+  <!-- Ne pas changer : chemin attendu par l'image linuxserver et servi par nginx -->
+  <filename>/data/guide.xml</filename>
+
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36</user-agent>
+  <!-- Licence gratuite non enregistrée : 20 chaînes max. Après inscription sur webgrabplus.com :
+  <license wg-username="..." registered-email="..." password="..." /> -->
+  <logging>on</logging>
+
+  <!-- Être poli avec les sites : délais entre requêtes (secondes) -->
+  <retry time-out="10" channel-delay="2" index-delay="1" show-delay="1">4</retry>
+
+  <!-- timespan = aujourd'hui + N jours. 6 => 7 jours de programmes -->
+  <timespan>0</timespan>
+  <!-- i = incrémental : ne re-télécharge que les détails manquants / modifiés (indispensable avec plusieurs grabs/jour) -->
+  <update>i</update>
+
+  <!-- ===== Chaînes =====
+       xmltv_id = identifiant à reprendre tel quel dans le tvg-id de la playlist M3U Kodi.
+       Liste des chaînes dispo par site : config/siteini.pack/<Pays>/<site>.channels.xml -->
+
+  <!-- Siteini NON chiffrés (lisibles sans licence ; max 2 siteini en licence "default") -->
+  <channel update="i" site="sfr.fr"  site_id="192"     xmltv_id="TF1.fr">TF1</channel>
+  <channel update="i" site="zita.be" site_id="sat-1"   xmltv_id="Sat1.de">Sat. 1</channel>
+  <channel update="i" site="zita.be" site_id="la-une"  xmltv_id="LaUne.be">La Une</channel>
+
+  <!-- Siteini chiffrés V3 : nécessitent la licence donateur
+  <channel update="i" site="programme-tv.net" site_id="tf1-19"     xmltv_id="TF1.fr">TF1</channel>
+  <channel update="i" site="programme-tv.net" site_id="sat-1-3512" xmltv_id="Sat1.de">SAT.1</channel>
+  <channel update="i" site="programme-tv.net" site_id="la-une-144" xmltv_id="LaUne.be">La Une</channel>
+  -->
+</settings>

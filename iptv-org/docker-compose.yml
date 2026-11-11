@@ -1,0 +1,20 @@
+# iptv-org/epg : chaînes absentes de xmltvfr.fr (public/channels.xml).
+# Sa sortie public/guide.xml est fusionnée par ../xmltvfr (guide final pour Kodi).
+# Guide servi sur http://localhost:8081/guide.xml(.gz)
+services:
+  iptv-org-epg:
+    image: ghcr.io/iptv-org/epg:master
+    container_name: iptv-org-epg
+    ports:
+      - "8081:3000"                 # serveur HTTP intégré (npx serve)
+    environment:
+      - TZ=Europe/Paris
+      - CRON_SCHEDULE=5 4,12,20 * * *   # 3 grabs par jour
+      - RUN_AT_STARTUP=true             # grab immédiat au démarrage
+      - DAYS=5                          # aligné sur xmltvfr (~5 j) ; limité par chaque site
+      - GZIP=true                       # produit aussi guide.xml.gz
+      - MAX_CONNECTIONS=4
+      - DELAY=500                       # ms entre requêtes : rester poli avec les sites
+    volumes:
+      - ./public:/epg/public            # channels.xml (entrée) + guide.xml / guide.xml.gz (sortie)
+    restart: unless-stopped

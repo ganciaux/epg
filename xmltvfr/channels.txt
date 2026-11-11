@@ -1,0 +1,55 @@
+# Chaînes prises dans xmltvfr.fr (prioritaires). Une par ligne : id XMLTV = tvg-id de la playlist M3U.
+# Tout ce qui suit '#' est un commentaire. Ids : https://xmltvfr.fr/channels.php — correspondance complète : CHANNELS.md
+
+3SAT.de                      # [1] 3sat
+AlJazeeraEnglish.uk          # [2] AlJazeera English
+France3.fr                   # [24] France 3 — édition nationale
+France4.fr                   # [25] France 4
+France5.fr                   # [26] France 5
+KIKA.de                      # [32] KI.KA
+LCI.fr                       # [38] LCI HD
+SRF1.ch                      # [58] SRFernsehen
+SuperRTL.de                  # [59] Super RTL
+TV5Monde.fr                  # [64] TV5MONDE
+TMC.fr                       # [97] TMC
+BloombergUKEurope.uk         # [107] Bloomberg Tv
+LaDeux.be                    # [135] la deux — devenue « Tipik »
+DasErste.de                  # [13] Das Erste HD
+Euronews.fr                  # [18] EuroNews — version française
+France24.fr                  # [23] France24 France
+KabelEins.de                 # [31] Kabel Eins HD
+BBCWorldNews.uk              # [77] BBC World News — « BBC News » international
+RTLTVI.be                    # [78] RTL TVI
+ClubRTL.be                   # [79] Club RTL
+PlugRTL.be                   # [83] Plug RTL
+RTL2.de                      # [85] 2. RTL — supposé = RTL Zwei (même guide que « RTL2 HD »)
+ZDF.de                       # [98] ZDF HD
+M6.fr                        # [99] M6 HD
+TF1.fr                       # [100] TF1 HD
+France2.fr                   # [101] France 2 HD
+LaUne.be                     # [134] La Une HD
+Arte.de                      # [143] Arte (Germany) HD
+SWR.de                       # [145] SWR RP HD
+Sat1.de                      # [150] SAT.1 HD
+ProSieben.de                 # [151] Prosieben HD
+W9.fr                        # [154] W9
+CStar.fr                     # [156] CStar HD
+CNews.fr                     # [157] CNews HD
+Arte.fr                      # [165] ARTE France HD
+# RTL2.de                    # [168] RTL2 HD -> même guide que ci-dessus
+Vox.de                       # [170] VOX HD
+ElevenSports2FR.be           # [200] Eleven Sport 2 HD — version FR
+ElevenSports1FR.be           # [199] Eleven Sport 1 HD — version FR
+FranceInfo.fr                # [201] France Info
+UshuaiaTV.fr                 # [194] USHUAIA TV HD
+BeSeries.be                  # [212] Be Series
+Be1.be                       # [210] Be1 HD
+BeCine.be                    # [213] Be Cine
+BE1Plus1H.be                 # [211] Be1 + 1H
+VOOSportWorld1.be            # [214] Voosport 1 — supposé = VOO Sport World 1
+VOOSportWorld2.be            # [215] Voosport 2 — supposé = VOO Sport World 2
+VOOSportWorld3.be            # [216] Voosport 3 — supposé = VOO Sport World 3 ; très peu de programmes
+RTLPlus.de                   # [5] RTL+ Germany — supposé = RTLup (ex-RTLplus)
+LaTrois.be                   # [189] La Trois
+LuxeTV.fr                    # [221] Luxe TV
+CGTN.fr                      # [222] CGTN Francais

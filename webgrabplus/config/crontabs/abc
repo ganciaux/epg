@@ -1,0 +1,3 @@
+# min  heure        jour mois jour_sem  commande
+# 3 grabs par jour (04:05, 12:05, 20:05) puis compression gzip pour Kodi
+5      4,12,20      *    *    *         /app/update.sh >> /config/cron.log 2>&1 && gzip -kf /data/guide.xml
